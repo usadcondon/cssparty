@@ -70,6 +70,7 @@ footer {
 
 #footerlaserred,#footerlasergreen,#footerlaserblue{
 	font-family: 'russo one';
+	display: block;
 }
 
 #footerlaserred:hover {
@@ -324,15 +325,17 @@ footer {
 	bottom: 0px;
 	width: 100%;
 	font-size: 20px;
-	text-align: center;
 	background-color: #333;
 	color: #EEE;
 	font-family: 'Star jedi';
 	letter-spacing: 3px;
 }
-
+#footeritem {
+	display:block;
+}
 #footerlaserred,#footerlasergreen,#footerlaserblue{
 	font-family: 'russo one';
+	display:block;
 }
 
 #footerlaserred:hover {
@@ -442,7 +445,7 @@ h3 {
 }
 
 #dime {
-	margin-bottom: 12px;
+	margin-bottom: 170px;
 }
 
 #escaleras {
@@ -458,9 +461,9 @@ h3 {
 }
 
 #fotokurti {
-	width: 30%;
-	float: right;
-	margin: 10px 15px;
+	width: auto;
+	margin 15px;
+    float: none;
 
 }
 figcaption {
@@ -471,14 +474,15 @@ figure img {
 }
 
 iframe {
-	width: 90%;
+	width: 95%;
 	height: 700px;
-	margin:40px;
+	margin:20px;
 }
 
 #mapa {
-	display: block;
-	width: 650px;
+	width: 95%;
+	height: 700px;
+	margin:20px;
 }
 
 h3 {
@@ -490,20 +494,30 @@ label {
 
 input[type=reset] {
   background-color: #DDD;
-  border: none; 
-  padding: 10px 30px; 
+  border: none;
+  font-size: 50px;
+  padding: 30px 30px; 
   margin: 10px;
 
 }
 input[type=submit] {
   background-color: #ff66cc;
-  border: none; 
-  padding: 10px 30px; 
+  border: none;
+  font-size: 50px;
+  padding: 30px 40px; 
   margin: 10px;
 
 }
 input[type=submit]:hover,input[type=reset]:hover {
 	opacity: 0.7;
+}
+input[type=text],input[type=email]{
+	padding: 30px 110px;
+	font-size: 40px;
+}
+textarea {
+	font-size: 30px;
+	width:73%;
 }
 input[type=text]:focus {
 	background-color: #ccffff;
