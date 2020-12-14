@@ -359,7 +359,7 @@ h1 {
 	width: 68px;
 }
 
-.boton {
+.boton,.boton:hover,boton:active {
 	display: inline-block;
 	color: #000000;
 	background-color: #ff99e6;
@@ -370,30 +370,6 @@ h1 {
 	height: 150px;
 	line-height: 160px;
 	margin: 7px 5px;
-}
-
-.boton:hover {
-	display: inline-block;
-    color: #000000;
-    background-color: #ff99e6;
-    font-family: Caviar Dreams;
-    font-size: 19px;
-    border-radius: 50px;
-    width: 70px;
-    line-height: 70px;
-    margin: 0px 0px;    
-}
-
-.boton:active {
-	/* display: inline-block; */
-	/* color: #000000; */
-	/* background-color: #ff99e6; */
-	/* font-family: Caviar Dreams; */
-	/* font-size: 26px; */
-	/* border-radius: 100px; */
-	/* width: 100px; */
-	/* height: 100px; */
-	/* margin: -4px 0px 2px; */
 }
 
 #botonparriba {
