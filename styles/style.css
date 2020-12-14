@@ -1,0 +1,296 @@
+@font-face {
+  font-family: 'Star jedi';
+  font-weight: normal;
+  font-style: normal;
+  src: url(Starjedi.ttf);
+}
+
+@font-face {
+  font-family: 'Ennobled Pet';
+  font-weight: normal;
+  font-style: normal;
+  src: url(ennobled pet.ttf);
+}
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  font-weight: normal;
+  font-style: normal;
+  src: url(CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: 'Krinkes Regular PERSONAL';
+  font-weight: normal;
+  font-style: normal;
+  src: url(KrinkesRegularPersonal.ttf);
+}
+
+@font-face {
+  font-family: 'russo one';
+  font-weight: normal;
+  font-style: normal;
+  src: url(RussoOne-Regular.ttf);
+}
+
+body {
+	background-color: #ffccff;
+	margin: 0px;
+
+}
+
+header {
+	position: sticky;
+	top: 0px;
+	max-width: 900px;
+	height: 151,10px;
+	text-align: center;
+	margin: auto;
+	background-color: #CCC;
+}
+
+section {
+	max-width: 900px; 
+	margin: auto;
+	background-color: #EEE;
+	padding-bottom: 20px;	
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	background-color: #333;
+	color: #EEE;
+	font-family: 'Star jedi';
+	letter-spacing: 3px;
+}
+
+#footerlaserred,#footerlasergreen,#footerlaserblue{
+	font-family: 'russo one';
+}
+
+#footerlaserred:hover {
+	text-shadow: 0 0 7px #ff0000;	
+}
+#footerlasergreen:hover {
+	text-shadow: 0 0 7px #00ff00;	
+}
+#footerlaserblue:hover {
+    text-shadow: 0 0 7px #00acee;
+}
+
+h1 {
+  font-family: 'star jedi';
+  line-height: 30px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logocuernos {
+	width: 50px;
+	padding-top: 5px;
+}
+
+.boton {
+	display: inline-block;
+    color: #000000;
+    background-color: #ff99e6;
+    font-family: Caviar Dreams;
+    font-size: 15px;
+    border-radius: 50px;
+    width: 60px;
+    line-height: 60px;
+    margin: 7px 5px;
+    
+}
+
+.boton:hover {
+	display: inline-block;
+    color: #000000;
+    background-color: #ff99e6;
+    font-family: Caviar Dreams;
+    font-size: 19px;
+    border-radius: 50px;
+    width: 70px;
+    line-height: 70px;
+    margin: 0px 0px;    
+}
+
+.boton:active {
+	display: inline-block;
+    color: #000000;
+    background-color: #ff99e6;
+    font-family: Caviar Dreams;
+    font-size: 12px;
+    border-radius: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin: 10px 10px;
+    
+}
+
+#botonparriba {
+	text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display: inline-block;
+    color: #000000;
+    background-color: #ff99e6;
+    font-family: Caviar Dreams;
+    font-size: 19px;
+    border-radius: 100px;
+    width: 80px;
+    line-height: 80px;
+}
+
+#botonparriba:active {
+    bottom: 55px;
+    right: 25px;
+    font-size: 16px;
+    width: 70px;
+    line-height: 70px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+}
+
+.ancla {
+	scroll-margin-top: 161px;
+}
+
+p {
+	font-family: 'Caviar Dreams';
+	font-size: 18px;
+	padding: 0px 15px 10px; 
+	text-align: justify;
+	margin-top: 4px;  
+}
+
+
+h2 {
+	font-family: 'russo one';
+	text-align: center;
+	padding-top: 10px;
+	margin: 10px 0px 0px; 
+}
+h3 {
+  margin: 0px 0px 0px 20px;
+  font-family: 'Krinkes Regular PERSONAL USE';
+  font-size: 30px;
+}
+
+#titulokurti {
+	font-family: 'Ennobled Pet';
+	font-size: 40px;
+
+}
+
+#titulobirra {
+	font-family: 'Krinkes Regular PERSONAL USE';
+	font-size: 40px; 
+}
+
+#titulodime {
+	font-size: 30px;
+}
+
+#dime {
+	margin-bottom: 12px;
+}
+
+#escaleras {
+	width: 50%;
+	float: right;
+	margin: 15px; 
+}
+
+#sofa {
+	width: 40%;
+	float: left;
+	margin: 10px 15px;
+}
+
+#fotokurti {
+	width: 30%;
+	float: right;
+	margin: 10px 15px;
+
+}
+figcaption {
+	font-family: 'caviar dreams';
+}
+figure img {
+	width: 100%;
+}
+
+iframe {
+	width: 72%;
+	margin: 0px 15px;
+	float: left;
+}
+
+#mapa {
+	display: block;
+	width: 650px;
+}
+
+h3 {
+	text-align: center; 
+}
+label {
+	font-family: 'Caviar Dreams';
+}
+
+input[type=reset] {
+  background-color: #DDD;
+  border: none; 
+  padding: 10px 30px; 
+  margin: 10px;
+
+}
+input[type=submit] {
+  background-color: #ff66cc;
+  border: none; 
+  padding: 10px 30px; 
+  margin: 10px;
+
+}
+input[type=submit]:hover,input[type=reset]:hover {
+	opacity: 0.7;
+}
+input[type=text]:focus {
+	background-color: #ccffff;
+}
+
+input[type=email]:focus {
+	background-color: #ccffff;
+}
+
+textarea:focus {
+	background-color: #ffffcc;
+}
+
+input[type=text]:hover {
+	background-color: #ccffff;
+}
+
+input[type=email]:hover {
+	background-color: #ccffff;
+}
+
+textarea:hover {
+	background-color: #ffffcc;	
+}
+
+form {
+	padding: 5px; 
+	text-align: center;
+}
