@@ -70,7 +70,6 @@ footer {
 
 #footerlaserred,#footerlasergreen,#footerlaserblue{
 	font-family: 'russo one';
-	display: block;
 }
 
 #footerlaserred:hover {
