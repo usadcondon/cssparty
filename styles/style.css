@@ -319,3 +319,20 @@ logocuernos {
 	display: none;
 }	
 }
+@media screen and (min-resolution: 290dpi) {
+
+#footerlaserblue,#footerlaserred {
+	display: none;
+}
+figure {
+	width: 100%;
+	float: none;
+}
+h1 {
+	font-size: 50px;
+	}
+nav>a {
+	width: 30%;
+	font-size: 20px;
+}
+}
