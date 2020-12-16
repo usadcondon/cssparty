@@ -330,12 +330,11 @@ footer {
 	letter-spacing: 3px;
 }
 #footeritem {
-	display:block;
+	visibility: hidden;	
 }
-#footerlaserred,#footerlasergreen,#footerlaserblue{
-	font-family: 'russo one';
-	display:block;
-}
+#footerlaserred,#footerlasergreen,#footerlaserblue {
+	font-size: 40px;
+	}
 
 #footerlaserred:hover {
 	text-shadow: 0 0 7px #ff0000;	
