@@ -330,7 +330,10 @@ logocuernos {
 	
 }
 
-iframe+p,iframe {
+#youtube,#mapa {
+    display: none;
+}
+iframe+p {
     display: none;
 }
 }
