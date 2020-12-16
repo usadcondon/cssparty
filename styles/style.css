@@ -313,3 +313,9 @@ form {
 	display: none;
 }	
 }
+@media only screen and (max-width: 465px) {
+
+logocuernos {
+	display: none;
+}	
+}
