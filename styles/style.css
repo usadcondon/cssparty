@@ -325,6 +325,11 @@ logocuernos {
 	display: none;
 }
 #fotokurti,#escaleras,#sofa {
-	width: 100%;
+	width: 90%;
 	float: none;
+	
+}
+iframe {
+    width: 300px;
+}
 }
