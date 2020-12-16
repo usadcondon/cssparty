@@ -329,7 +329,7 @@ footer {
 	font-family: 'Star jedi';
 	letter-spacing: 3px;
 }
-#footeritem {
+.footeritem {
 	visibility: hidden;	
 }
 #footerlaserred,#footerlasergreen,#footerlaserblue {
