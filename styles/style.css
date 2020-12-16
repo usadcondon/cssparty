@@ -332,4 +332,7 @@ logocuernos {
 iframe {
     width: 90%;
 }
+iframe+p {
+    display: none;
+}
 }
