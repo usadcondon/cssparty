@@ -323,7 +323,7 @@ footer {
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
-	font-size: 20px;
+	font-size: 40px;
 	background-color: #333;
 	color: #EEE;
 	font-family: 'Star jedi';
@@ -333,7 +333,7 @@ footer {
 
 }
 #footerlaserred,#footerlasergreen,#footerlaserblue {
-	visibility: hidden;
+	display: hidden;
 	font-size: 0px;
 	}
 
@@ -495,7 +495,7 @@ input[type=reset] {
   background-color: #DDD;
   border: none;
   font-size: 50px;
-  padding: 30px 30px; 
+  width: 50%; 
   margin: 10px;
 
 }
@@ -503,7 +503,7 @@ input[type=submit] {
   background-color: #ff66cc;
   border: none;
   font-size: 50px;
-  padding: 30px 40px; 
+  width: 50%;
   margin: 10px;
 
 }
@@ -511,12 +511,14 @@ input[type=submit]:hover,input[type=reset]:hover {
 	opacity: 0.7;
 }
 input[type=text],input[type=email]{
-	padding: 30px 110px;
-	font-size: 40px;
+    width: auto;
+	float: none;
+	margin: 15px; 
 }
 textarea {
-	font-size: 30px;
-	width:73%;
+	width: auto;
+	float: none;
+	margin: 15px; 
 }
 input[type=text]:focus {
 	background-color: #ccffff;
