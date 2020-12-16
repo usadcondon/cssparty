@@ -295,7 +295,7 @@ form {
 	text-align: center;
 }
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 900px) {
 body {
 	background-color: #ffccff;
 	margin: 0px;
