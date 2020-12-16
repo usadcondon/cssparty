@@ -294,3 +294,22 @@ form {
 	padding: 5px; 
 	text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+
+.footeritem {
+	display: none;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
