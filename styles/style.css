@@ -495,7 +495,7 @@ input[type=reset] {
   background-color: #DDD;
   border: none;
   font-size: 50px;
-  width: 45%; 
+  width: 60%; 
   margin: 10px;
 
 }
@@ -503,7 +503,7 @@ input[type=submit] {
   background-color: #ff66cc;
   border: none;
   font-size: 50px;
-  width: 45%;
+  width: 30%;
   margin: 10px;
 
 }
