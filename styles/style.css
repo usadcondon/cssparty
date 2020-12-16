@@ -299,17 +299,11 @@ form {
 
 .footeritem {
 	display: none;
+}	
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+@media only screen and (max-width: 780px) {
+
+#footerlaserred {
+	display: none;
+}	
 }
