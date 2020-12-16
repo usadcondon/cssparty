@@ -513,12 +513,12 @@ input[type=submit]:hover,input[type=reset]:hover {
 input[type=text],input[type=email]{
     width: auto;
 	float: none;
-	margin: 15px; 
+	margin: 10px; 
 }
 textarea {
 	width: 90%;
 	float: none;
-	margin: 15px; 
+	margin: 10px; 
 }
 input[type=text]:focus {
 	background-color: #ccffff;
