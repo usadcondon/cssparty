@@ -330,10 +330,12 @@ footer {
 	letter-spacing: 3px;
 }
 .footeritem {
-	visibility: hidden;	
+	visibility: hidden;
+	width: 0px;
 }
 #footerlaserred,#footerlasergreen,#footerlaserblue {
 	font-size: 40px;
+	
 	}
 
 #footerlaserred:hover {
