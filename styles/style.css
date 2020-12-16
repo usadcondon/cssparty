@@ -329,10 +329,8 @@ logocuernos {
 	float: none;
 	
 }
-iframe {
-    width: 90%;
-}
-iframe+p {
+
+iframe+p,iframe {
     display: none;
 }
 }
