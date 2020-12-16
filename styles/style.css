@@ -328,14 +328,13 @@ footer {
 	color: #EEE;
 	font-family: 'Star jedi';
 	letter-spacing: 3px;
+	text-align: center;
 }
-.footeritem {
-	visibility: hidden;
-	width: 0px;
+
 }
 #footerlaserred,#footerlasergreen,#footerlaserblue {
-	font-size: 40px;
-	
+	visibility: hidden;
+	font-size: 0px;
 	}
 
 #footerlaserred:hover {
@@ -449,15 +448,15 @@ h3 {
 }
 
 #escaleras {
-	width: 50%;
-	float: right;
+	width: auto;
+	float: none;
 	margin: 15px; 
 }
 
 #sofa {
-	width: 40%;
-	float: left;
-	margin: 10px 15px;
+	width: auto;
+	float: none;
+	margin: 15px;
 }
 
 #fotokurti {
