@@ -40,15 +40,19 @@ body {
 }
 
 header {
-	position: sticky;
-	top: 0px;
 	max-width: 900px;
-	height: 151,10px;
+	height: 100px;
 	text-align: center;
 	margin: auto;
 	background-color: #CCC;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    max-width: 900px;
+    margin: auto;
+}
 section {
 	max-width: 900px; 
 	margin: auto;
