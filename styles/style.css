@@ -110,6 +110,7 @@ h1 {
     width: 60px;
     line-height: 60px;
     margin: 7px 5px;
+    transition: width .2s, line-height .2s, margin .2s, font-size .2s;
     
 }
 
@@ -151,14 +152,13 @@ h1 {
     border-radius: 100px;
     width: 80px;
     line-height: 80px;
+    
 }
 
 #botonparriba:active {
-    bottom: 55px;
-    right: 25px;
-    font-size: 16px;
-    width: 70px;
-    line-height: 70px;
+    bottom: 80px;
+    
+    transition: bottom .2s;
 }
 
 a {
@@ -227,6 +227,7 @@ h3 {
 	width: 30%;
 	float: right;
 	margin: 10px 15px;
+	transition: 4s;
 
 }
 figcaption {
@@ -332,6 +333,7 @@ logocuernos {
 #fotokurti,#escaleras,#sofa {
 	width: 90%;
 	float: none;
+
 	
 }
 
@@ -341,4 +343,15 @@ logocuernos {
 iframe+p {
     display: none;
 }
+}
+#fotokurti:hover {
+	width: 100%;
+	transition: 5s;
+}
+#x:link {
+	color: #EEE;
+}
+#x:visited {
+	color: red;
+	text-decoration: none;
 }
