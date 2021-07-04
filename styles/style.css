@@ -348,12 +348,3 @@ iframe+p {
 	width: 100%;
 	transition: 5s;
 }
-#x:link {
-	color: #EEE;
-}
-#x:visited {
-	color: red;
-	text-decoration: none;
-}
-#x:link {
-	color: #EEE;
